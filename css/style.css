@@ -1,0 +1,43 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    
+    .formulario{
+    height: 150px;
+    width: 100%;
+    padding-top: 15px;
+    border: 1px solid yellow;	 
+    background-color: yellow;
+    margin: 0 auto;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(250, 246, 12)), to(#fff34c));
+    background: -moz-linear-gradient(top, #f9d006, #fff34c);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');   
+    }
+     img{
+     height: 50px;
+     width: 50px;
+     margin-top:50px;
+     margin-left:145px;
+
+    }
+    #resposta{
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    }
+  footer{
+    position: fixed; 
+    float: left;
+    margin-left: 283px;
+    margin-top: 210px;
+    z-index: 0;
+  }
+  a:link{
+      text-decoration: none;
+      color: white;
+  }
+  a:visited{
+      color: white;
+  }
