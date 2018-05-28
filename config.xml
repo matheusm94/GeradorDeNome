@@ -1,22 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.comunista" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
- xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0">
-	
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Communist Generator Name</name>
-	
     <description>
-        Gere seu nome de comunista
+        Gere seu nome de comunista.
     </description>
-	
-    <author email="mmatos.moreira@gmail.com" 
-	    href="https://github.com/matheusm94">
-      Matheus Moreira
+    <author email="mmatos.moreira@gmail.com" href="https://github.com/matheusm94">
+        Matheus Moreira
     </author>
 	
-    <icon src="icone.png" platform="android"/>
-    <preference name="orientation" value = "portrait">
-	<gap:platform name="android"/>
-	
-    <content src="index.html" />
-    <access origin="*" />
+    <icon src="icone.png"/>
+
+    <preference name="orientation" value="portrait"/>
+    <gap:platform name="android"/>
 </widget>
